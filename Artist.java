@@ -10,6 +10,7 @@ public class Artist{
     protected Gender gender;
     protected int age;
 
+
     public Artist(){ //DEFAULT CONSTRUCTOR OF ARTIST
         aname = "Unknown name";
         stname = "No stage name defined";
