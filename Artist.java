@@ -35,7 +35,7 @@ public class Artist{
             this.gender = gender;
         }
 
-    public void showArtist() {
+    protected void showArtist() {
         System.out.println("ARTIST PROFILE");
         System.out.println("Name: " +aname);
         System.out.println("Stage Name: " +stname);

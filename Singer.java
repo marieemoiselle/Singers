@@ -30,7 +30,7 @@ public class Singer extends Artist {
             this.band = band;
     }
 
-    void showSinger() {
+    protected void showArtist() {
         super.showArtist();
         System.out.println("MUSIC DETAILS");
         System.out.println("Genre: " +genre);

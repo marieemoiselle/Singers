@@ -28,11 +28,11 @@ class ArtistDemo{
         );
 
 
-        singer1.showSinger();
+        singer1.showArtist();
         System.out.println("\n");
-        singer2.showSinger();
+        singer2.showArtist();
         System.out.println("\n");
-        singer3.showSinger();
+        singer3.showArtist();
 
 
     }
