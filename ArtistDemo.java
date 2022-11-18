@@ -27,12 +27,27 @@ class ArtistDemo{
             Band.YES
         );
 
+        Writer writer1 = new Writer();
+        Artist writer2 = new Writer(
+            "Jonnahmae Pacala",
+            "jonaxx",
+            "Filipino",
+            "1991-JAN-23",
+            Gender.FEMALE,
+            31,
+            "Wattpad",
+            "Romance, Hurt/Comfort"
+        );
 
         singer1.showArtist();
         System.out.println("\n");
         singer2.showArtist();
         System.out.println("\n");
         singer3.showArtist();
+        System.out.println("\n");
+        writer1.showArtist();
+        System.out.println("\n");
+        writer2.showArtist();
 
 
     }
